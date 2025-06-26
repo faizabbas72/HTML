@@ -1,6 +1,16 @@
 <html>
 <head>
 <title> cybrom </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style> 
+    p{
+        color: aquamarine;
+        font-size: xx-large ;
+    }
+</style>
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -142,6 +152,7 @@ User se input lene ke liye (text, number, checkbox, etc.). <br>
 
 1) Order list <br>
 
+attribute of OL is (type)
 example of order list- <br>
 <ol>
 
@@ -153,6 +164,7 @@ example of order list- <br>
 </ol>
 
 ✨by defalut it show number if we want anything else we have to aplly attribute like ( A, a, i, I, 1)
+✨attribute of OL is (type)
 
 <ol type="a">
 <li>apple</li>
@@ -209,7 +221,10 @@ let's make ordered list in unordered
 
 <a href="About.html"> Go to about page  </a> &nbsp;&nbsp;&nbsp;
 <a href="help.html"> Go to the help section </a>&nbsp;&nbsp;&nbsp;
-<a href="contect.html"> Go to the contect page</a> <br>
+<a href="contect.html"> Go to the contect page</a> &nbsp;&nbsp;&nbsp;
+
+<!-- agar image dusre tab pe chahiye ho tab use karte hain target ka anchor tag ke andar -->
+<a href="https://www.google.co.in/"  target="_blank">go to google  </a>
 --------------------------------------------------------------------------
 <br>
 
@@ -219,13 +234,166 @@ let's make ordered list in unordered
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d472337.5367882207!2d77.08999680000001!3d22.3484551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1750409569141!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <br>
-
+--------------------------------------------------------------------------
+<br>
 <h1> learn git hub </h1>
 update gitrepositry from main folder <br>
+--------------------------------------------------------------------------------- <br3>
 
-<h1>hello</h1>
 
 
+
+<h1> Now lets learn Forms </h1>
+<form >
+<fieldset>
+    <legend>SAMPLE FORM</legend>
+    Enter Your Name: <input type="text"> <br> <br>
+    Enter Phone Number: <input type="number"> <br> <br>
+    Enter Email: <input type="email"> <br> <br>
+    Enter DOB: <input type="datetime-local"> <br> <br>
+    Enter Password: <input type="password"> <br><br>
+    Upload Your Resume:  <input type="file" name="" id=""> <br> <br>
+    I am not a bot: <input type="checkbox"> <br> <br>
+<!--⭐ radio ka use kar ke  choose karwte hai , usme name use kar ke same data deke koi ek choose karwate hai  -->
+    chosse gender: <input type="radio" name="gender" > Male ,
+    <input type="radio" name="gender"> Female 
+    <input type="radio" name="gender"> Other <br><br>
+    <input type="color"> <br><br>
+<input type="submit">
+<!--⭐ submit ko signin me kese badl sakte hai  -->
+ <input type="submit" value="sigin">
+</fieldset>
+</form>
+--------------------------------------------------------------------------------------- <br>
+
+<h1>Table</h1>
+
+<table border="1">
+    <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Age</th>
+        <th>Stream</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>zaid</td>
+        <td>Bhopal</td>
+        <td>22</td>
+        <td>MBA</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Abhay</td>
+        <td>Bihar</td>
+        <td>23</td>
+        <td>B.tech</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Priyansh</td>
+        <td>Sagar</td>
+        <td>25</td>
+        <td>M.tech</td>
+    </tr>
+</table>
+
+<!-- for increasing the cellsize increase hoga cell cellpadding se, do cells ke beech ka size badhega cellspacing se -->
+
+
+<table border="1" cellspacing>
+    <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Age</th>
+        <th>Stream</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>zaid</td>
+        <td>Bhopal</td>
+        <td>22</td>
+        <td>MBA</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Abhay</td>
+        <td>Bihar</td>
+        <td>23</td>
+        <td>B.tech</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Priyansh</td>
+        <td>Sagar</td>
+        <td>25</td>
+        <td>M.tech</td>
+    </tr>
+</table>
+------------------------------------------------------------------------------------------------ <br>
+HTML ENTITIES (H.W)
+
+
+
+
+
+------------------------------------------------------------------------- <br>
+<h1>
+how to aplly icon ?</h1> <br>
+GO ON WEBSITE LIKE FONTAWSOME FROM WHERE WE CAN PIC ALL TYPE OF ICON <br>
+Usse pahle humko humari website ko link karna hoga jaha se icon utha rahe hain, like fontawsome se utha rhe hain toh uske liye pahle font awsome cdn se link copy karna hoga head me attch karna hoga jisse website link ho jaye font awsome se tai koi bhi icon waha ka use ho sake, 
+
+<i class="fa-brands fa-whatsapp"></i> lets chat on whatsapp
+<br><br><br><br><br><br><br><br>
+--------------------------------------------------------------------------------- <br>
+
+⭐ <H1> LETS START CSS</H1>
+
+There are 4 ways to add css <br>
+1) Inline CSS  <br>
+2) Internal CSS <br> 
+3) External CSS <br>
+
+<br><br><br>
+
+1) Inline - <br>
+in line me hum css ko html ki lines me hi add kar dete hain kisi bhi tag me style attribute use kar ke <br>
+inline => style => property - name: value; <br>
+
+EX) <p style="color: brown;"> HELLO I AM FAIZ ABBAS RIZVI</p> <br>
+
+<br><br>
+
+2) Internal Css - <br>
+in internal css hum css ko html ke head section me apply karte hain jisse humara main code ganda nhi hota, 
+html headtag me style tag deke waha easily css apply ho sakta hai 
+<br>
+ex ) <p> i am faiz abbas rizvi </p> <br>
+<!-- head me maine style sheet aplly kar di hai or vo work bhi kar rahi hai  -->
+
+<br><br><br>
+
+3) External CSS - <br>
+external css me hum ek seperate file banate hai usko HTML head me link karte hai, then css file me direct usko use karna start kar dete <br>
+
+✨ aage ki css hum us file me aplly karenge 
+
+<p> aplly css through external css
+    
+</p>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>
 
